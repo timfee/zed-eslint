@@ -1,4 +1,4 @@
-{
+module.exports = {
   "root": true,
   "extends": [
     "next/core-web-vitals",
@@ -11,6 +11,7 @@
     "ecmaFeatures": {
       "jsx": true
     },
-    "project": "./tsconfig.json"
-  }
+    project: true,
+    tsconfigRootDir: __dirname,
+  },
 }
